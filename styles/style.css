@@ -10,12 +10,51 @@ body {
   justify-content: center;
 }
 
-.main {
+main {
   width: 1600px;
 }
 
 /* Shared Styles */
-font-inter-sans {
+.font-inter-sans {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+}
+
+.btn_primary {
+  background-color: #469165;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12.5px 16px;
+  border: 1px solid #469165;
+  border-radius: 5px;
+}
+
+.btn_primary:hover {
+  background-color: transparent;
+  color: #469165;
+  border: 1px solid #469165;
+  cursor: pointer;
+}
+
+/* Navigation Styles */
+.navbar {
+  max-width: 1360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
 }
