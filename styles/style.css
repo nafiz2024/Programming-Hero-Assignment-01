@@ -20,6 +20,10 @@ main {
   font-optical-sizing: auto;
 }
 
+.font_color {
+  color: #001931;
+}
+
 .icon_gap1 {
   margin-left: 10px;
 }
@@ -168,7 +172,6 @@ main {
 .about_heading h1 {
   font-size: 48px;
   font-weight: bold;
-  color: #001931;
   margin-bottom: 16px;
 }
 
@@ -201,7 +204,6 @@ main {
 .about_card h2 {
   font-size: 24px;
   font-weight: 600;
-  color: #001931;
   margin: 16px auto;
 }
 
@@ -210,4 +212,48 @@ main {
   line-height: 20px;
   color: #627382;
   margin-bottom: 55px;
+}
+
+/* Solution Section Styles */
+.solution_container {
+  width: 1360px;
+  margin: 120px 0px;
+  display: flex;
+  gap: 60px;
+}
+
+.solution-IMAGE img {
+  border-radius: 12px;
+}
+
+.solution_content {
+  margin-top: 102px;
+  width: 510px;
+}
+
+.solution_content h4 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.solution_content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.solution_content p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+
+.solution_point {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
 }
