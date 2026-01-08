@@ -156,3 +156,58 @@ main {
   color: #fff;
   margin-bottom: 32px;
 }
+
+/* About Section Styles */
+.about_container {
+  width: 1360px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.about_heading h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.about_heading p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+
+.about_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.about_card {
+  padding: 0px 24px;
+  box-shadow: 0 0px 8px 0 #00000011;
+  border-radius: 8px;
+}
+
+.about_card img {
+  background-color: #f95555;
+  padding: 14px;
+  border-radius: 100%;
+  margin-top: 69.5px;
+}
+
+.about_card h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin: 16px auto;
+}
+
+.about_card p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 55px;
+}
