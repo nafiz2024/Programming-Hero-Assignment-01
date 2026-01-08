@@ -1,0 +1,21 @@
+/*Body Styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 1600px;
+}
+
+/* Shared Styles */
+font-inter-sans {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
