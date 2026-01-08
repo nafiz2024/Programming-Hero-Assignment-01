@@ -20,21 +20,51 @@ main {
   font-optical-sizing: auto;
 }
 
+.icon_gap1 {
+  margin-left: 10px;
+}
+
+.icon_gap2 {
+  margin-right: 10px;
+}
+
 .btn_primary {
   background-color: #469165;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
-  padding: 12.5px 16px;
+  padding: 16.5px 16px;
   border: 1px solid #469165;
   border-radius: 5px;
 }
 
 .btn_primary:hover {
   background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.btn_secondary {
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16.5px 16px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-left: 16px;
+}
+
+.btn_secondary:hover {
+  background-color: transparent;
   color: #469165;
   border: 1px solid #469165;
   cursor: pointer;
+}
+
+.color-green {
+  color: #469165;
 }
 
 /* Navigation Styles */
@@ -62,4 +92,67 @@ main {
   font-size: 16px;
   color: #000000;
   font-weight: 500;
+}
+
+.navbar_btn {
+  background-color: #469165;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12.5px 16px;
+  border: 1px solid #469165;
+  border-radius: 5px;
+}
+
+.navbar_btn:hover {
+  background-color: transparent;
+  color: #469165;
+  border: 1px solid #469165;
+  cursor: pointer;
+}
+
+/* Banner Styles */
+#banner {
+  background-image: url("../assets/hero-bg.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.banner_content {
+  width: 770px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 115.5px 0px 179.5px 0px;
+}
+
+.banner_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.banner_title h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+  background-color: #fff;
+  padding: 8px 0px;
+  border-radius: 1000px;
+  width: 229px;
+}
+
+.banner_content h1 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.banner_content p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 32px;
 }
