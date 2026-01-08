@@ -38,8 +38,13 @@ main {
 }
 
 /* Navigation Styles */
+#header {
+  width: 1360px;
+  margin: 0px auto;
+  align-items: center;
+}
+
 .navbar {
-  max-width: 1360px;
   display: flex;
   justify-content: space-between;
   align-items: center;
