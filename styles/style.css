@@ -215,6 +215,11 @@ main {
 }
 
 /* Solution Section Styles */
+#solution {
+  display: flex;
+  justify-content: center;
+}
+
 .solution_container {
   width: 1360px;
   margin: 120px 0px;
