@@ -32,41 +32,6 @@ main {
   margin-right: 10px;
 }
 
-.btn_primary {
-  background-color: #469165;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 16.5px 16px;
-  border: 1px solid #469165;
-  border-radius: 5px;
-}
-
-.btn_primary:hover {
-  background-color: transparent;
-  color: #fff;
-  border: 1px solid #fff;
-  cursor: pointer;
-}
-
-.btn_secondary {
-  background-color: transparent;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 16.5px 16px;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  margin-left: 16px;
-}
-
-.btn_secondary:hover {
-  background-color: transparent;
-  color: #469165;
-  border: 1px solid #469165;
-  cursor: pointer;
-}
-
 .color-green {
   color: #469165;
 }
@@ -159,6 +124,41 @@ main {
   line-height: 24px;
   color: #fff;
   margin-bottom: 32px;
+}
+
+.btn_primary {
+  background-color: #469165;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16.5px 16px;
+  border: 1px solid #469165;
+  border-radius: 5px;
+}
+
+.btn_primary:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.btn_secondary {
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16.5px 16px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-left: 16px;
+}
+
+.btn_secondary:hover {
+  background-color: transparent;
+  color: #469165;
+  border: 1px solid #469165;
+  cursor: pointer;
 }
 
 /* About Section Styles */
@@ -256,4 +256,48 @@ main {
   align-items: center;
   gap: 6px;
   margin-bottom: 16px;
+}
+
+/* Thinking Section Styles */
+.thinking_container {
+  width: 1360px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #f7f6f2;
+  padding: 80px 0px;
+  border-radius: 12px;
+  margin-bottom: 120px;
+}
+
+.thinking_container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.thinking_container p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+}
+
+.thinking_btn {
+  padding: 24px 0px 16px 0px;
+}
+
+.btn_third {
+  background-color: #469165;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16.5px 16px;
+  border: 1px solid #469165;
+  border-radius: 5px;
+}
+
+.btn_third:hover {
+  background-color: transparent;
+  color: #469165;
+  border: 1px solid #469165;
+  cursor: pointer;
 }
