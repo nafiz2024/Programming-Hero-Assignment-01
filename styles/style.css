@@ -63,6 +63,13 @@ main {
   font-weight: 500;
 }
 
+.menu ul li a:hover {
+  color: #469165;
+  cursor: pointer;
+  border-bottom: 2px solid #469165;
+  padding-bottom: 2px;
+}
+
 .navbar_btn {
   background-color: #469165;
   color: #fff;
@@ -340,7 +347,6 @@ main {
 .footer_links ul li a {
   font-size: 20px;
   color: #fff;
-  border-radius: 50px;
 }
 
 .footer_copyright {
@@ -353,3 +359,11 @@ main {
   line-height: 24px;
   color: #fff;
 }
+
+.footer_links ul li a:hover {
+  padding: 2px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+
+/* END OF FILE */
