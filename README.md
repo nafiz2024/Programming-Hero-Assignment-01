@@ -75,5 +75,5 @@ This project is for personal use, portfolio showcase, or educational purposes.
 - 
 ## Author
 - **Name**: Nafiz Alam
-- **Email**: info@gmail.com
+- **Email**: nafizalam.dev@gmail.com
 - **Location**: Dhaka, Bangladesh
